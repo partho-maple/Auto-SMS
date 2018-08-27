@@ -25,6 +25,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".EditActivity"
+            android:label="@string/enter_data"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+
+        <activity android:name=".InfoActivity"
+            android:label="@string/info"></activity>
     </application>
 
 </manifest>

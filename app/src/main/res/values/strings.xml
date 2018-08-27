@@ -1,4 +1,32 @@
 <resources>
     <string name="app_name">Auto SMS</string>
-    <string name="action_settings">Settings</string>
+    <string name="info">How does it work ?</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_info">Info</string>
+    <string name="save">Save</string>
+    <string name="enter_name">Enter title</string>
+    <string name="enter_number">Enter phone number</string>
+    <string name="enter_tags">Enter tags (separated by commas)</string>
+    <string name="enter_answer">Enter reply</string>
+    <string name="name">Title:</string>
+    <string name="number">Number:</string>
+    <string name="tags">Tags:</string>
+    <string name="answer">Answer:</string>
+    <string name="fill_fields">Please fill all the fields</string>
+    <string name="enter_data">Enter data</string>
+    <string name="sent">Message sent by keyword:</string>
+    <string name="info_text"><b>First field \"Enter tile\"</b> - Enter a title or name so that you can distinguish the cards.
+                             \n\n<b>Second field \"Enter phone number\"</b> - Enter the number to which you want to set auto reply by tags.
+                             \n\n<b>Third field \"Enter tags\"</b> - Enter a comma separated list of tags that will trigger autoreply.
+                             For example, enter the tag: \"shop\" and the reply to this tag: \"I\'m busy, sorry\".
+                             If you receive a message, for example \"Dear go to the shop\" followed by an auto-reply \"I\'m busy, sorry\".
+                             \n\n<b>Fourth field \"Enter reply\"</b> - Enter the reply that will be sent if one of the tags has coincided.
+    </string>
+    <string name="message">Message:</string>
+    <string name="sent_notif">Message sent</string>
+    <string name="tag">Tag:</string>
+    <string name="card_number">Card number:</string>
+    <string name="deleted">deleted:</string>
+    <string name="cancel">Cancel:</string>
 </resources>
