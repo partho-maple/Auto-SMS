@@ -55,7 +55,7 @@ public class EditActivity extends AppCompatActivity implements View.OnClickListe
                 intent.putExtra("answer", answer);
 
                 try {
-                intent.putExtra("update_position", getIntent().getExtras().getString("update_position")); //для обновления данных
+                intent.putExtra("update_position", getIntent().getExtras().getString("update_position"));
                 }
                 catch (Exception main) {}
 

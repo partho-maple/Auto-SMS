@@ -31,12 +31,12 @@
                 android:id="@+id/item_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Вася"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:layout_alignParentTop="true"
                 android:layout_alignLeft="@+id/item_number"
-                android:layout_alignStart="@+id/item_number" />
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/item_number"
+                android:text="Mom"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/item_number"
@@ -106,7 +106,7 @@
                 android:layout_alignBottom="@+id/tags__title"
                 android:layout_alignLeft="@+id/item_number"
                 android:layout_alignStart="@+id/item_number"
-                android:text="магазин, деньги, апрор"
+                android:text="shopping, potato"
                 android:textStyle="bold" />
 
             <TextView
@@ -117,7 +117,7 @@
                 android:layout_alignBottom="@+id/answer__title"
                 android:layout_alignLeft="@+id/item_tags"
                 android:layout_alignStart="@+id/item_tags"
-                android:text="Привет, как дела?"
+                android:text="Sorry, busy..."
                 android:textStyle="bold" />
 
         </RelativeLayout>
