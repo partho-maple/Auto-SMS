@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".AutoSMSActivity"
+            android:name="edu.sust.autosms.AutoSMSActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -26,11 +26,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EditActivity"
+            android:name="edu.sust.autosms.EditActivity"
             android:label="@string/enter_data"
             android:theme="@style/Theme.AppCompat.Light.Dialog" />
 
-        <activity android:name=".InfoActivity"
+        <receiver android:name="edu.sust.autosms.IncomingSMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="edu.sust.autosms.InfoActivity"
             android:label="@string/info"></activity>
     </application>
 
