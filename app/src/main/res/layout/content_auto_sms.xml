@@ -67,7 +67,7 @@
             android:layout_marginRight="11dp"
             android:clickable="true"
             android:src="@mipmap/ic_plus"
-            app:backgroundTint="#3e3e3e"
+            app:backgroundTint="@android:color/holo_orange_dark"
             app:elevation="7dp"
             app:layout_behavior="edu.sust.autosms.ScrollAwareFABBehavior"
             app:rippleColor="#c1c1c1" />
